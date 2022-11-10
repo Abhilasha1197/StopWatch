@@ -34,17 +34,8 @@ function startTimer(){
                 min = 0;
                 sec = 0;
             }
-        }
-            /*
-            if(ms < 10){
-                ms = "00" + ms;
-            }
-             else if(ms < 100){
-                ms = "0" + ms;
-             }else{
-                ms = ms;
-            }
-        */
+        
+         
             if(sec < 10){
                 sec = "0" + sec;
             }
@@ -59,13 +50,15 @@ function startTimer(){
 
         setTimeout("timerCycle()", 1000)
         }
+
+}
     
     function pauseTimer(){
         if(pausetime == false){
             pausetime = true;
         }
     }
-    function stopTimer(){
+    function resetTimer(){
         timer.innerHTML = "00:00:00" ;
         pausetime = true;
         hr = 0;
