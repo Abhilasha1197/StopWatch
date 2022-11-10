@@ -1,9 +1,12 @@
- let timer = document.getElementById("StartTime");
 
- var hr = 0;
+
+
+let timer = document.getElementById("StartTime");
+
+ var hr  = 0;
  var min = 0;
  var sec = 0;
- var ms = 0;
+ var ms  = 0;
  var pausetime = true;
 
 function startTimer(){
@@ -20,8 +23,7 @@ function startTimer(){
             min = parseInt(min);
             hr = parseInt(hr);
     
-          
-             ms = ms + 10;
+            ms++;
              if(ms === 1000){
                 sec++;
                 ms = 0;
@@ -35,12 +37,13 @@ function startTimer(){
                 min = 0;
                 sec = 0;
             }
+            
             if(ms < 10){
                 ms = "00" + ms;
             }
-            else if(ms < 100){
+             else if(ms < 100){
                 ms = "0" + ms;
-            }else if(ms<1000){
+             }else{
                 ms = ms;
             }
         
