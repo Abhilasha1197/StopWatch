@@ -62,7 +62,7 @@ function startTimer(){
 
         setTimeout("timerCycle()", 1)
         }
-    }
+    
     function pauseTimer(){
         if(pausetime == false){
             pausetime = true;
