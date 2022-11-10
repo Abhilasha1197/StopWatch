@@ -74,7 +74,7 @@ function startTimer(){
         hr = 0;
         sec = 0;
         min = 0;
-        ms = 0;
+        ms = 0
     }
-
+       
    
