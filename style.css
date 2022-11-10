@@ -7,7 +7,7 @@
   
  .myWatch{
     background-color: rgba(2, 2, 59, 0.942);
-    width: 300px;
+    width:400px;
     height: 200px;
     border: hidden;
     border-radius: 12px;
@@ -23,7 +23,7 @@
 }
  .myButtons button{
      border-radius: 11px;
-     font-size: 15px;
+     font-size: 25px;
      background-color: brown;
  }
  button:hover {
@@ -31,4 +31,11 @@
  }
  button:active{
      background-color: var(--dark);
+ }
+
+ .footer{
+    background-color: beige;
+    
+    align-self: center;
+    border-radius: 12px;
  }
