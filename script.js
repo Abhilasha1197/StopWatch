@@ -23,7 +23,7 @@ function startTimer(){
             min = parseInt(min);
             hr = parseInt(hr);
     
-            ms++;
+            ms = ms+10;;
              if(ms === 1000){
                 sec++;
                 ms = 0;
