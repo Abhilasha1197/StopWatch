@@ -57,7 +57,7 @@ function startTimer(){
             
         timer.innerHTML = hr + ":" + min + ":" + sec  ;
 
-        setTimeout("timerCycle()", 1)
+        setTimeout("timerCycle()", 1000)
         }
     
     function pauseTimer(){
