@@ -37,6 +37,7 @@ function startTimer(){
                 min = 0;
                 sec = 0;
             }
+        }
             
             if(ms < 10){
                 ms = "00" + ms;
